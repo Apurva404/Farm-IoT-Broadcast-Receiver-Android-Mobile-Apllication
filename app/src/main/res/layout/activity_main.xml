@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:padding="8dip">
+    <TextView
+        android:id="@+id/activity_b"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:text="@string/activity_b_label"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        />
+
+
+    <Button
+        android:id="@+id/btn_getTempHumidity"
+        android:layout_height="wrap_content"
+        android:layout_width="240dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@color/dark_green"
+        android:text="@string/btn_tempHumidity_label"
+        android:onClick="launchTempHumidityDataGathererActivity"
+        />
+
+
+    <TextView
+        android:id="@+id/no_action"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:text="@string/no_action_label"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/temp_range"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        android:text="@string/temp_range1_label"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_turnFan"
+        android:layout_height="80dp"
+        android:layout_width="120dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:background="@color/light_red"
+        android:text="@string/btn_turnFan_label"
+        android:textSize="20sp"
+        android:onClick="turnFan"/>
+
+
+    <TextView
+        android:id="@+id/temp_range2"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:text="@string/temp_range2_label"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_turnFanSprinkler"
+        android:layout_height="80dp"
+        android:layout_width="180dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:background="@color/light_purple"
+        android:text="@string/btn_turnFanSprinkler_label"
+        android:onClick="turnFanSprinkler"
+        />
+
+
+
+
+
+
+
+
+</LinearLayout>
+

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">FarmIoTApp</string>
+    <string name="dialog_text">Dialog</string>
+
+    <string name="activity_a_label">Temperature &amp; Humidity</string>
+    <string name="activity_b_label">Farm Manager</string>
+    <string name="no_action_label">Temperature seems fine, no action required!</string>
+    <string name="temp_range1_label">Temperature(F) is between 70 &amp; 90</string>
+    <string name="temp_range2_label">Temperature(F) is between 90 &amp; 125</string>
+
+    <string name="btn_set_label">Set</string>
+    <string name="btn_cancel_label">Cancel</string>
+    <string name="btn_tempHumidity_label">Temperature &amp; Humidity Settings</string>
+    <string name="btn_turnFan_label">Turn Fan On</string>
+    <string name="btn_turnFanSprinkler_label">Turn Fan &amp; Sprinkler On</string>
+    <string name="btn_back_label">Back</string>
+
+
+    <string name="temp_label">Temperature(F)</string>
+    <string name="humidity_label">Humidity(%)</string>
+</resources>
